@@ -18,7 +18,6 @@ const handlebars = expressHandlebars.create({
     handlebars: allowInsecurePrototypeAccess(Handlebars)
 });
 
-
 app.engine('hbs', handlebars.engine);
 app.set('view engine', 'hbs');
 app.set('views', 'views');
